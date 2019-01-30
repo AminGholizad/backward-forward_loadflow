@@ -7,4 +7,4 @@ Loads are considered as constant power.
 There are two examples of ieee33bus and ieee69bus systems that will plot voltage profile of the loadflow results.
 
 # TODO
-[] Add support for other load types (constant current, constant impedance)
+Add support for other load types (constant current, constant impedance)
