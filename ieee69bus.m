@@ -122,7 +122,7 @@ spotloads=[spotloads(:,1) spotloads(:,2)*1e3];%P+jQ(VA)
 Vb = 12.66;%(kV)
 Vb = Vb*1e3;%(V)
 rn = 1;% root node
-[V, I] = LoadFlow(branches ,rn ,Vb , spotloads);
+[V, I] = load_flow(branches ,rn ,Vb , spotloads);
 plot(abs(V(:,1)),abs(V(:,2)))
 set(get(gca,'YAxis'),'Exponent',3)
 ylabel('Voltage (V)')
